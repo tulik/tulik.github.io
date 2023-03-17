@@ -1,0 +1,54 @@
+{
+  "name": "lukasz-tulikowski-blog",
+  "private": false,
+  "description": "Personal blog of Lukasz Tulikowski",
+  "version": "1.0.0",
+  "author": "Lukasz Tulikowski",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "gatsby": "^5.1.0",
+    "gatsby-plugin-gatsby-cloud": "^5.1.0",
+    "gatsby-plugin-image": "^3.1.0",
+    "gatsby-plugin-manifest": "^5.1.0",
+    "gatsby-plugin-offline": "^6.1.0",
+    "gatsby-plugin-sass": "^6.1.0",
+    "gatsby-plugin-sharp": "^5.1.0",
+    "gatsby-source-filesystem": "^5.1.0",
+    "gatsby-transformer-sharp": "^5.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.0.0",
+    "sass": "1.49.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "prettier": "2.5.1"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tulik/tulik.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "homepage": "https://tulik.github.io",
+  "main": "gatsby-browser.js"
+}
